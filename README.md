@@ -2,8 +2,8 @@
 > A command-line tool for carefully analysing differences between
 > modified versions of the same JavaScript program.
 
-_selfies_ is a testing tool that takes 'pictures' of your JavaScript programs
-while they are running. When _selfies_ is done taking pictures, it will compare
+`selfies` is a testing tool that takes 'pictures' of your JavaScript programs
+while they are running. When `selfies` is done taking pictures, it will compare
 them and report back to you how these pictures differ. This is extremely
 useful for programs of which the output must remain the same, but where the
 internals may change frequently.
@@ -58,10 +58,10 @@ entire tree.
 ### Where is selfies used?
 
 Given that this tool is brand-new, there are not a lot of projects using
-_selfies_ (yet). If you are using it in your own project, be sure to let us
+`selfies` (yet). If you are using it in your own project, be sure to let us
 know!
 
- - [The Bolt compiler](https://github.com/boltlang/Bolt) makes use of _selfies_
+ - [The Bolt compiler](https://github.com/boltlang/Bolt) makes use of `selfies`
    to check that error reporting remains consistent over different versions of
    the compiler.
 
