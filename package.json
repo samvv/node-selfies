@@ -1,0 +1,38 @@
+{
+  "name": "selfies",
+  "version": "0.0.1",
+  "description": "Test your JavaScript program for mistakes by comparing snapshots of it",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --unhandled-rejections=strict lib/bin/selfies.js example.js -B example.js:14 -I Point"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boltlang/selfies-javascript.git"
+  },
+  "keywords": [
+    "testing",
+    "automation",
+    "framework",
+    "debugging"
+  ],
+  "author": "Sam Vervaeck <sam@vervaeck.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boltlang/selfies-javascript/issues"
+  },
+  "homepage": "https://github.com/boltlang/selfies-javascript#readme",
+  "dependencies": {
+    "chrome-debugging-client": "^1.2.0",
+    "devtools-protocol": "0.0.777489",
+    "find-free-ports": "^2.0.3",
+    "fs-extra": "^9.0.1",
+    "ora": "^4.0.4",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.1",
+    "@types/node": "^14.0.13",
+    "@types/yargs": "^15.0.5"
+  }
+}
